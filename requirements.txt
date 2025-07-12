@@ -1,0 +1,12 @@
+streamlit
+torch
+numpy
+opencv-python
+speechrecognition
+transformers
+optimum[openvino]
+openvino
+pdfplumber
+deep-translator
+deepface==0.0.93
+tensorflow==2.10.1
