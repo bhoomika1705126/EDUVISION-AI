@@ -1,4 +1,5 @@
-streamlit==1.35.0
+keras<3.0.0
+streamlit
 numpy
 pdfplumber
 deepface
@@ -6,6 +7,7 @@ transformers
 optimum[openvino]
 torch
 pydub
-SpeechRecognition
+speechrecognition
 deep-translator
 Pillow
+opencv-python-headless
