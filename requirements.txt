@@ -11,4 +11,4 @@ deep-translator
 Pillow
 opencv-python-headless
 tensorflow==2.11.0
-keras<3.0.0
+keras==2.11.0
