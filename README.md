@@ -31,6 +31,11 @@
 | Translation           | Deep Translator (Google API)  |
 | PDF Handling          | pdfplumber                    |
 | Voice Recognition     | SpeechRecognition (WAV input) |
+-----
+ ## Images
+ Q&A with translation
+IN English:<img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/475b7849-4d30-494f-a76c-cd42cb4cc093" />
+IN Kannada:<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/66e453c7-6adc-409b-8e9a-6a991e45f035" />
 
 ---
 
@@ -66,14 +71,4 @@ time.sleep(5)
 # Create public URL
 print("🌍 Public URL:", ngrok.connect(8501))
 ----
-## 📘 Manual Q&A:
-In English(Before Translation):<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/319b4a12-8f4c-4280-9f0a-07e2a7bfe33a" />
-In Kannada(After Translation):<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/6dc7f8fd-e51c-47aa-aef4-4d52b0736946" />
-
-
-😊 Emotion Detection:
-![](screenshots/emotion.png)
-
-📄 PDF Q&A:
-![](screenshots/pdf_qa.png)
 
