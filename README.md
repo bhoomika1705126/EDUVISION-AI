@@ -33,10 +33,15 @@
 | Voice Recognition     | SpeechRecognition (WAV input) |
 -----
  ## Images
- Q&A with translation
-IN English:<img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/475b7849-4d30-494f-a76c-cd42cb4cc093" />
-IN Kannada:<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/66e453c7-6adc-409b-8e9a-6a991e45f035" />
-
+Q&A with translation
+IN English:<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/f602fe0e-9142-4137-a053-ca8833c13559" />
+IN Kannada:<img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/cd05e199-afe6-4bba-85ca-552cdbd3c60f" />
+------
+## Emotion
+<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/159b9528-0a56-4130-a31e-f33f5653d891" />
+----
+## Summary
+<img width="1920" height="1080" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/c0ac0c2d-9f4d-4f00-8a58-26d2e789222c" />
 ---
 
 ## 📦 Installation
