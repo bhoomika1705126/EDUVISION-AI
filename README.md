@@ -34,14 +34,18 @@
 -----
  ## Images
 Q&A with translation
-IN English:<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/f602fe0e-9142-4137-a053-ca8833c13559" />
-IN Kannada:<img width="1920" height="1080" alt="Screenshot (28)" src="https://github.com/user-attachments/assets/cd05e199-afe6-4bba-85ca-552cdbd3c60f" />
+IN English:<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/164c1ff7-ea5f-416f-addd-c203236d6236" />
+IN Kannada:<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/ece1ddda-48e5-4b2e-b9ab-5a9894811bf5" />
 ------
 ## Emotion
-<img width="1920" height="1080" alt="Screenshot (33)" src="https://github.com/user-attachments/assets/159b9528-0a56-4130-a31e-f33f5653d891" />
+
+<img width="1920" height="1080" alt="Screenshot (37)" src="https://github.com/user-attachments/assets/2ace97c1-1267-4293-ae20-5436c1409356" />
+
 ----
 ## Summary
-<img width="1920" height="1080" alt="Screenshot (30)" src="https://github.com/user-attachments/assets/c0ac0c2d-9f4d-4f00-8a58-26d2e789222c" />
+
+<img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/89a6a231-51f7-48fa-9072-39d7aea9511d" />
+
 ---
 
 ## 📦 Installation
