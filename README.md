@@ -42,3 +42,33 @@ Use the `requirements.txt` file:
 
 ```bash
 pip install -r requirements.txt
+
+---
+
+** ##Running the App locally **
+```bash
+streamlit run app.py
+
+** ##Running the App via google colab  **
+```bash
+# Install requirements
+!pip install -r requirements.txt
+!pip install pyngrok  # For tunnel
+ __RUN THE APP WITH NGROK__
+```bash
+from pyngrok import ngrok
+import subprocess
+import time
+
+# Kill any existing tunnels (if needed)
+ngrok.kill()
+
+# Start Streamlit app
+process = subprocess.Popen(["streamlit", "run", "app.py"])
+time.sleep(5)
+
+# Create public URL
+public_url = ngrok.connect(8501)
+print("🚀 EduVision is live at:", public_url)
+
+---
