@@ -39,36 +39,41 @@
 ### 🔹 Install All Requirements
 
 Use the `requirements.txt` file:
-
+ 
 ```bash
 pip install -r requirements.txt
 
----
-
-** ##Running the App locally **
-```bash
+▶️ Run the App Locally
 streamlit run app.py
 
-** ##Running the App via google colab  **
-```bash
+🌍 Run in Google Colab (via Ngrok)
+Colab doesn’t allow direct browser access to Streamlit apps, so we use ngrok:
+
+🔸 Step-by-step:
+
 # Install requirements
 !pip install -r requirements.txt
-!pip install pyngrok  # For tunnel
- __RUN THE APP WITH NGROK__
-```bash
+!pip install pyngrok
+
+🔸 Run Streamlit via Ngrok
 from pyngrok import ngrok
-import subprocess
-import time
-
-# Kill any existing tunnels (if needed)
+import subprocess, time
+# Kill previous tunnels
 ngrok.kill()
-
-# Start Streamlit app
+# Start the app
 process = subprocess.Popen(["streamlit", "run", "app.py"])
 time.sleep(5)
-
 # Create public URL
-public_url = ngrok.connect(8501)
-print("🚀 EduVision is live at:", public_url)
+print("🌍 Public URL:", ngrok.connect(8501))
+----
+## 📘 Manual Q&A:
+In English(Before Translation):<img width="1920" height="1080" alt="Screenshot (27)" src="https://github.com/user-attachments/assets/319b4a12-8f4c-4280-9f0a-07e2a7bfe33a" />
+In Kannada(After Translation):<img width="1920" height="1080" alt="Screenshot (29)" src="https://github.com/user-attachments/assets/6dc7f8fd-e51c-47aa-aef4-4d52b0736946" />
 
----
+
+😊 Emotion Detection:
+![](screenshots/emotion.png)
+
+📄 PDF Q&A:
+![](screenshots/pdf_qa.png)
+
