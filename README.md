@@ -45,6 +45,10 @@ IN Kannada:<img width="1920" height="1080" alt="Screenshot (35)" src="https://gi
 ## Summary
 
 <img width="1920" height="1080" alt="Screenshot (36)" src="https://github.com/user-attachments/assets/89a6a231-51f7-48fa-9072-39d7aea9511d" />
+------
+## Voice Based Questions
+
+<img width="1920" height="1080" alt="Screenshot (38)" src="https://github.com/user-attachments/assets/a5329222-97ad-4793-8e21-2afdb365a0fd" />
 
 ---
 
