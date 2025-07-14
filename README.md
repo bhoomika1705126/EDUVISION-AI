@@ -32,7 +32,7 @@
 | PDF Handling          | pdfplumber                    |
 | Voice Recognition     | SpeechRecognition (WAV input) |
 -----
- ## Images
+ ## Some Output Images
 Q&A with translation
 IN English:<img width="1920" height="1080" alt="Screenshot (34)" src="https://github.com/user-attachments/assets/164c1ff7-ea5f-416f-addd-c203236d6236" />
 IN Kannada:<img width="1920" height="1080" alt="Screenshot (35)" src="https://github.com/user-attachments/assets/ece1ddda-48e5-4b2e-b9ab-5a9894811bf5" />
