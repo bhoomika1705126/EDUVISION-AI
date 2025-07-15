@@ -1,0 +1,50 @@
+EduVision AI: Multimodal AI Classroom Assistant
+Team: ML Crew
+Al-Powered Interactive Learning Assistant for Classrooms
+Objective: Build a Multimodal Al assistant for classrooms to dynamically answer queries using text, voice, and visuals 
+while improving student engagement with personalized responses.
+1. Introduction
+Modern classrooms require interactive tools that can keep students engaged and support individual learning needs. 
+EduVision AI is a real-time AI-powered interactive assistant designed to address this by combining text, voice, visual 
+inputs, and emotion recognition to enhance classroom participation and understanding.
+EduVision aligns with Intel's AI strategy by using OpenVINO for optimized model inference, ensuring low-latency 
+responses on Intel hardware. It supports accessibility, engagement, and inclusive learning.
+2. System Design
+Architecture Overview:
+EduVision AI integrates text, voice, image, and PDF inputs via a Streamlit interface, processes them through optimized 
+NLP and vision pipelines, and delivers personalized output using OpenVINO.
+Key Components:
+- Voice input with SpeechRecognition
+- PDF processing using pdfplumber
+- Emotion detection via DeepFace (image-based)
+- DistilBERT QA model optimized with OpenVINO
+- Multilingual translation using deep-translator
+- Summarization and study tips generation via NLP
+3. Implementation
+Technologies Used:
+- Backend/Inference: OpenVINO, HuggingFace, ONNX
+-NLP: Transformers, DistilBERT, deep-translator
+- Visuals: DeepFace, PIL, OpenCV
+- UI: Streamlit
+- Voice: SpeechRecognition
+- PDF: pdfplumber
+- Deployment: Streamlit Cloud, Ngrok
+Intel Optimization:
+- Converted DistilBERT to OpenVINO IR using optimum.intel
+- Used OVModelForQuestionAnswering for low-latency inference on Intel CPU- Enables fast, efficient deployment on AI 
+PC with Intel hardware
+4. Conclusions
+EduVision AI proves that a multimodal classroom assistant can:
+- Answer diverse student questions in real time
+- Monitor student engagement via emotion detection
+- Support inclusive learning with multilingual and multimodal input
+It aligns with Intel's goals for real-time, edge-deployable AI. OpenVINO boosts its performance on Intel CPUs, making it 
+practical for everyday use in classrooms. Future enhancements include video-based emotion monitoring, quiz generation, 
+and teacher dashboards.
+5. References
+1. OpenVINO Toolkit: https://www.openvino.ai
+2. EduVision GitHub: https://github.com/bhoomika1705126/EDUVISION-AI
+3. HuggingFace Transformers: https://huggingface.co
+4. DeepFace: https://github.com/serengil/deepface
+5. PDFPlumber: https://github.com/jsvine/pdfplumber
+6. Intel DevCloud: https://www.intel.com/content/www/us/en/developer/tools/devcloud/overview.html
